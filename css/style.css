@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(149, 149, 149);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.button-descipt {
+    font-size: 25px;
+    margin: 15px;
+}
+
+#player-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+#player-buttons button {
+    width: 75px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+#text {
+    width: 350px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+#text button {
+    background-color: rgb(51, 51, 51);
+    color: rgb(99, 99, 255);
+    display: inline-block;
+
+}
+
+#text button:active {
+    color: white;
+}
+
+button:active {
+    background-color: rgb(68, 155, 184);
+    color: rgb(233, 233, 233);
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 15px;
+    font-size: 22px;
+}
+
+.player-score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comp-score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#player,
+#computer {
+    font-weight: 800;
+}
