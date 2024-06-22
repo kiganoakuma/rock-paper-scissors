@@ -1,4 +1,4 @@
-/*
+/* intial script before refactoring for classes
 this.compScoreDisplay = document.getElementById("computer");
 this.compScore = 0;
 this.playerScoreDisplay = document.getElementById("player");
